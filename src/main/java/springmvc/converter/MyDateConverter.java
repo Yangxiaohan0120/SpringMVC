@@ -19,6 +19,6 @@ public class MyDateConverter implements Converter<String, Date> {
             return date;
         } catch (ParseException e) {
             return null;
-        }
+        } 
     }
 }
